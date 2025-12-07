@@ -37,15 +37,3 @@ The framework consists of three synergistic components:
 
 3.  **Time-enhanced Penalty Decoding (TPD):**
     * A custom `LogitsProcessor` that suppresses thought-switching tokens (e.g., "Alternatively", "However") during early generation stages to enforce reasoning consistency.
-
-## 🛠️ Usage
-
-### 1. Installation
-```bash
-git clone [https://github.com/lyj20071013/DTTC-Reasoning.git](https://github.com/lyj20071013/DTTC-Reasoning.git)
-cd DTTC-Reasoning
-pip install -r requirements.txt
-```
-
-2. Configuration
-Open src/inference.py and configure your model path:
